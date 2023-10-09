@@ -2,18 +2,23 @@
 ```
 
 project
+├─ .gitignore
+├─ README.md
 ├─ controllers
-│  ├─ auth.controller.js
-│  └─ posts.controller.js
+│  ├─ posts.controller.js
+│  ├─ products.controller.js
+│  └─ users.controller.js
 ├─ index.js
 ├─ middlewares
 │  └─ auth.middleware.js
 ├─ models
-│  └─ posts.model.js
+│  ├─ posts.model.js
+│  └─ products.model.js
 ├─ package-lock.json
 ├─ package.json
 └─ routes
-   ├─ auth.routes.js
-   └─ posts.routes.js
+   ├─ posts.routes.js
+   ├─ products.routes.js
+   └─ users.routes.js
 
 ```
